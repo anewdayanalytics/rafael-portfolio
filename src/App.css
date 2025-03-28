@@ -1,0 +1,522 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+a {
+  cursor: pointer;
+}
+
+.title {
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  color: #132238;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #87909D;
+  max-width: 577px;
+  text-align: center;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #A53DFF;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 56px;
+  letter-spacing: 0%;
+
+
+}
+
+.logo-text {
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: White;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background:
+    radial-gradient(circle at top right,
+      rgba(218, 77, 241, 0.4) 0%,
+      /* Visible but soft purple */
+      rgba(218, 77, 241, 0) 30%,
+      /* Gentle blend */
+      rgba(255, 255, 255, 0) 70%,
+      /* Fully transparent */
+      white 100%
+      /* Clean white base */
+    );
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  color: Gray/900 !important;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.navbar-links {
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+
+.profile-image {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 578px;
+}
+
+
+.hero-heading {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0%;
+  color: #132238;
+}
+
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: Gray/900;
+}
+
+.hero-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.stats-box {
+  background-color: #EDD8FF80;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding: 16px 0;
+  border-radius: 4px;
+
+  .heading {
+    color: #424E60;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    color: #697484;
+  }
+}
+
+.intro-wrapper {
+  box-shadow: 0px 36px 105px 0px #2B384C1A;
+  border-radius: 16px;
+  padding: 112px;
+  margin-top: 100px;
+
+  .heading {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    color: #132238;
+  }
+
+  .paragraph {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #556070
+  }
+
+  .btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-radius: 4px !important;
+  }
+
+  .social-links-bar {
+    box-shadow: 0px 12px 64px 0px #1C19191F;
+    position: absolute;
+    bottom: -5%;
+    left: 40%;
+    /* Move to 50% of parent */
+    transform: translateX(-50%);
+    /* Pull back by half of element's width */
+    background-color: white;
+    padding: 8px 27px;
+    border-radius: 4px;
+    width: max-content;
+
+
+    a {
+      text-decoration: none;
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+
+/* Portfolio section */
+
+.portfolio-section {
+  .card {
+    border: 1px solid #E6E8EB !important;
+    box-shadow: 0px 12px 64px 0px #1C19191F;
+
+
+    .pre-heading {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0%;
+      color: #87909D;
+    }
+
+    .heading {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      color: #132238;
+      color: #132238;
+    }
+
+    .description {
+      color: #556070;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0%;
+
+    }
+  }
+}
+
+/* Discuss project section */
+
+.discuss-project-section {
+  padding: 100px 0;
+
+  .title {
+    color: white;
+  }
+
+  .description {
+    color: #A5ACB5;
+  }
+
+  background-color: #132238;
+}
+
+
+/* Experience section */
+.experience-section {
+  .container {
+    padding: 150px 0;
+  }
+
+  background-color: #F0F1F3;
+
+  .title {
+    margin-bottom: 24px;
+  }
+
+  .title,
+  .description {
+    text-align: left;
+  }
+
+  button {
+    margin-top: 50px;
+  }
+
+  .tile {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 32px 96px 0px #1C191929;
+    padding: 32px;
+
+    &.active {
+      border-left: 5px solid #A53DFF;
+    }
+
+    .heading {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #132238;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      color: #787878;
+    }
+  }
+}
+
+
+/* Testimonial section */
+
+.testimonial-section {
+  .title {
+    text-align: center;
+
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .clients-testimonial {
+    margin-top: 100px;
+  }
+
+  .testimonial-wrapper {
+    max-width: 872px;
+  }
+
+  .testimonial-description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2B384C;
+  }
+
+  .testimonial-author {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+  }
+
+  .testimonial-company {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+  }
+}
+
+
+/* Footer section */
+
+.footer-section {
+  width: 100%;
+
+  .footer-card {
+    box-shadow: 0px 59px 124px 0px #0000001F;
+    border-radius: 15px;
+    padding: 88px;
+  }
+
+  .title,
+  .description {
+    text-align: left;
+  }
+
+  label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #697484;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E6E8EB;
+    background-color: transparent;
+    width: 100%;
+    color: #132238;
+
+
+    &:focus {
+      border-color: #A53DFF;
+    }
+
+  }
+
+  textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    color: #132238;
+    border-bottom: 1px solid #E6E8EB;
+    background-color: transparent;
+  }
+
+
+  .tile {
+    border-radius: 10px;
+    padding: 24px;
+    width: 333px;
+
+    &.active {
+      box-shadow: 0px 12px 64px 0px #1C19191F;
+    }
+
+    .icon-wrapper {
+      background-color: #EDD8FF80;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .heading {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      vertical-align: bottom;
+      color: #424E60;
+    }
+
+    .description {
+      color: #132238;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      vertical-align: bottom;
+
+    }
+  }
+}
+
+.bottom-footer {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: #2B384C;
+  margin-top: 100px;
+
+  li {
+    list-style: none;
+  }
+
+  a,
+  .copyright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  .intro-wrapper {
+    padding: 32px;
+
+    .profil-image {
+      margin-bottom: 2rem;
+    }
+
+    .heading {
+      font-size: 30px;
+      line-height: 34px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .discuss-project-section {
+    padding: 50px 0px;
+
+    .description {
+      text-align: left;
+    }
+  }
+
+  .footer-card {
+    padding: 12px !important;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .hero-heading {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .bottom-footer {
+    padding: 50px 0px;
+  }
+
+  .copyright {
+    margin-top: 1rem;
+  }
+}
